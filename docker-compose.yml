@@ -1,6 +1,6 @@
 services:
 
-  backend:
+  web:
     build:  ./
     restart: always
     ports:
