@@ -1,4 +1,4 @@
-from fastapi import FastAPI, Path, Query
+from fastapi import FastAPI, Query
 from fastapi.responses import JSONResponse
 
 app = FastAPI(openapi_url=None)
