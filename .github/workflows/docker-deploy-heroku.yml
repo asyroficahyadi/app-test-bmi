@@ -1,4 +1,4 @@
-name: Deploy Docker Images to heroku
+name: Deploy Docker Images
 
 on:
   pull_request:
