@@ -1,0 +1,13 @@
+on: [pull_request]
+
+jobs:
+  checking_code:
+    runs-on: ubuntu-latest
+    name: Horusec Scan
+    steps:
+      - uses: actions/checkout@v1
+      - name: Run Horusec
+        id: run_horusec
+        run: |
+                curl -fsSL https://raw.githubusercontent.com/ZupIT/horusec/main/deployments/scripts/install.sh | bash -s latest
+                horusec start -p ./
