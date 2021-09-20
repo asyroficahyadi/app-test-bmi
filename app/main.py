@@ -1,10 +1,10 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, Path, Query
 from fastapi.responses import JSONResponse
 
 app = FastAPI(openapi_url=None)
 
 @app.get("/")
-async def root(height: float, weight: float):
+async def root(height: float = Query (..., gt=0), weight: float = (Query (..., gt=0))):
     height /= 100
     bmi = round(weight / (height * height), 2)
     if bmi < 18.5:
