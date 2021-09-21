@@ -67,7 +67,7 @@ If you need REST API from this apps, you can use this method:
         - Horusec scanning code Workflow
           it will scanning the source code to check vulnerabilites on python.
        
- 4. You can merge the branch and close the pull request to triggered the workflow to build docker images and deploy apps on Heroku. 
+ 4. You can merge the branch and close the pull request to triggered the workflow to build docker images and it will deploy the application on Heroku. 
  
 
 ### Deploy on Heroku
