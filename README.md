@@ -33,7 +33,15 @@ Before use this apps, please install these prerequisites:
         
 2. From your web browser access the application using port 80:
 
-        localhost:80        
+        localhost:80      
+        
+3. You can check the vulnerabities on the image Docker using this command:
+
+        docker scan <image name or ID> 
+        
+4. Example of Usage on this case:
+
+        docker scan app  
         
         
 ### REST API
@@ -69,6 +77,7 @@ If you need REST API from this apps, you can use this method:
        
  4. You can merge the branch and close the pull request to triggered the workflow to build docker images and it will deploy the application on Heroku. 
  
+
 
 ### Deploy on Heroku
 
