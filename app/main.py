@@ -1,7 +1,7 @@
 from fastapi import FastAPI, Query
 from fastapi.responses import JSONResponse
 
-app = FastAPI(openapi_url=None)
+app = FastAPI()
 
 @app.get("/")
 async def root(height: float = Query (..., gt=0), weight: float = (Query (..., gt=0))):
