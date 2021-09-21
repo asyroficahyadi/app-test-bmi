@@ -83,7 +83,7 @@ If you need REST API from this apps, you can use this method:
 
 If you want to review the REST this app in public. please check heroku deployment on this link:
 
-Application: [https://bmi-happyfresh-docker.herokuapp.com/](https://bmi-happyfresh-docker.herokuapp.com/)
+Application: [https://bmi-happyfresh-docker.herokuapp.com/docs](https://bmi-happyfresh-docker.herokuapp.com/docs)
 
 REST API: https://bmi-happyfresh-docker.herokuapp.com/?height=float&weight=float
 Change height and weight for your input, example:  
