@@ -55,7 +55,7 @@ If you need REST API from this apps, you can use this method:
         }
 
 ### Build using Github Action
-    This apps build using Github Action for every pull request in github.
+   This apps build using Github Action for every pull request in github.
     
  1. Copy the repository to your Github.
  2. You can create some branch and pull request (PR) to make the Github action workflows triggered to run.
